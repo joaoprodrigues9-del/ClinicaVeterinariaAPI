@@ -17,5 +17,7 @@ namespace ClinicaVeterinariaAPI.Models
 
         [JsonIgnore]
         public Veterinario? Veterinario { get; set; }
+
+
     }
 }

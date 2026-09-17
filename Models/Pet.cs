@@ -12,5 +12,7 @@ namespace ClinicaVeterinariaAPI.Models
 
         [JsonIgnore]
         public Tutor? Tutor { get; set; }
+
+        public ICollection<Consulta> Consulta { get; set; } = new List<Consulta>();
     }
 }
